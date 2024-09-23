@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #eef200;
+}
+
+header {
+    background: #fc6b03;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+
+header .hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header .hero p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
+
+.popular-items {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.popular-items h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 10px;
+    text-align: center;
+}
+
+.item img {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.item h3 {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+.commitment {
+    background: #e9ffeb;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.commitment h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.commitment p {
+    font-size: 1.2em;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.cta-buttons {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.cta-buttons button {
+    background: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cta-buttons button:hover {
+    background: #4e0081;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}

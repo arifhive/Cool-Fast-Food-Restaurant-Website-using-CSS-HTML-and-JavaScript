@@ -1,0 +1,106 @@
+
+* {
+   padding: 0;
+   margin: 0; 
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background: #fc6b03;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+
+header .hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header .hero p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background: #fff;
+    margin: 20px 0;
+}
+
+.contact-info, .feedback-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.contact-info h2, .feedback-form h2 {
+    font-size: 2em;
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.feedback-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background: #fc6b03;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+    background: #4e0081;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}

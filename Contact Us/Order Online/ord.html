@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Online</title>
+    <link rel="stylesheet" href="ord.css">
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <h1>Order Online</h1>
+            <p>Enjoy our delicious food from the comfort of your home!</p>
+        </div>
+    </header>
+
+    <section class="order-section">
+        <div class="order-form">
+            <h2>Place Your Order</h2>
+            <form action="submit_order.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone" placeholder="Mobile Number" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <textarea id="address" name="address" rows="3" placeholder="Your Address" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="order">Order Details</label>
+                    <textarea id="order" name="order" rows="5" placeholder="Other Details" required></textarea>
+                </div>
+                <button type="submit">Submit Order</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 M ARiF. All rights reserved.</p>
+    </footer>
+    
+
+
+</body>
+</html>
